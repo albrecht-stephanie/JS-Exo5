@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Exercice-5</title>
-        <meta charset="UTF-8" />
-    </head>
-    <body>
-      <form>
-        <p>Entrer des nombres à virgule</p>
-        <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
-        <label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
-        <input type ="button"  id="boutton" value ="Valider" onclick="controle()">
-        <input type="reset" value="Reset">
-      </form>
-    </body>
+
+<head>
+  <title>Exercice_5</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      
+    </header>
+    <div class="row">
+
+      <div class="card col-6 offset-3 bg-light shadow ">
+
+        <div class="card-body text-center ">
+          <h1 class="card-title "><span class="badge badge-primary">Exercice 5 :</span></h1>
+
+          <form>
+            <p>Entrer des nombres à virgule</p>
+            <div class="col-12"><label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/></div>
+            <div class="col-12"><label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/></div>
+            <div class="col-12"><input type ="button"  id="boutton" value ="Valider" onclick="controle()">
+              <input type="reset" value="Reset"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+
+      </footer>
+    </div>
+  </body>
   <script type="text/javascript" src="assets/js/index.js"></script>
-</html>
+  </html>
